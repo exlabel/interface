@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import logo from './logo.svg'
 import './App.css'
-import Index from './components/Index.js'
+import Home from './components/Home.js'
 import Login from './components/Login.js'
 import Dashboard from './components/Dashboard.js'
 
@@ -32,7 +31,7 @@ class App extends Component {
       <div>
         <Header />
 
-        <Route exact path="/" component={Index} />
+        <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/dashboard" component={Dashboard} />
       </div>
