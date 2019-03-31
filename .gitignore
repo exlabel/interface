@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# security
+src/utils/config.js
+cloudconfig.json
+
+# audio files
+*.mp3
+*.m4a
+*.flac

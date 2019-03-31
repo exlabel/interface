@@ -1,0 +1,3 @@
+[submodule "python/sentiment_analysis"]
+	path = python/sentiment_analysis
+	url = https://github.com/exlabel/SongSentiment
